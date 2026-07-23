@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Project_Whac-a-mole.vcxproj" />
+  <Project Path="Project_Whac-a-mole.vcxproj" Id="09122d4f-846d-4594-8697-5df2b0a19175" />
 </Solution>
