@@ -13,23 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Player">
+    <Filter Include="オブジェクト">
+      <UniqueIdentifier>{a35744f4-4ac2-46a2-a9e1-e44d7bd6f93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン">
+      <UniqueIdentifier>{d87776ff-8c99-4c68-8c2a-3d851ec46915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Result">
+      <UniqueIdentifier>{e400a2f1-5fb0-4aa5-9014-bd46a1ac3d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Title">
+      <UniqueIdentifier>{1e040fac-5815-4ff9-9c0a-b876304ec93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\Game">
+      <UniqueIdentifier>{426f0693-c1c4-4e8e-abb8-0c43c85d8438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="オブジェクト\Collision">
+      <UniqueIdentifier>{86bd0b00-4335-4c96-b3f2-01f5fab47c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="オブジェクト\Player">
       <UniqueIdentifier>{6132d836-eda7-4ebb-b61b-06585ee641b0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Mole">
+    <Filter Include="オブジェクト\Mole">
       <UniqueIdentifier>{f0041e9b-5bc8-485c-9f99-e9141d7d8ca5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Camera">
+    <Filter Include="オブジェクト\Camera">
       <UniqueIdentifier>{2780da7e-75fe-4458-bfeb-e7499ede6821}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ResultScene">
-      <UniqueIdentifier>{3ef729f4-1caa-407a-a187-1faa1847ec45}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="TitleScene">
-      <UniqueIdentifier>{a75d6429-504c-4447-b000-c6d758296a8f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameScene">
-      <UniqueIdentifier>{81928205-897a-4086-a1c5-16a4cbc8bbaa}</UniqueIdentifier>
+    <Filter Include="オブジェクト\Stage">
+      <UniqueIdentifier>{2c977ae0-0fb9-439a-9737-75680a40880a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -37,22 +49,28 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="Mole.cpp">
-      <Filter>Mole</Filter>
+      <Filter>オブジェクト\Mole</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>Player</Filter>
+      <Filter>オブジェクト\Player</Filter>
     </ClCompile>
     <ClCompile Include="Camera.cpp">
-      <Filter>Camera</Filter>
+      <Filter>オブジェクト\Camera</Filter>
     </ClCompile>
-    <ClCompile Include="ResultScene.cpp">
-      <Filter>ResultScene</Filter>
+    <ClCompile Include="Game.cpp">
+      <Filter>シーン\Game</Filter>
     </ClCompile>
-    <ClCompile Include="GameScene.cpp">
-      <Filter>GameScene</Filter>
+    <ClCompile Include="Title.cpp">
+      <Filter>シーン\Title</Filter>
     </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
-      <Filter>TitleScene</Filter>
+    <ClCompile Include="Result.cpp">
+      <Filter>シーン\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>オブジェクト\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>オブジェクト\Stage</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -60,22 +78,28 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Mole.h">
-      <Filter>Mole</Filter>
+      <Filter>オブジェクト\Mole</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>Player</Filter>
+      <Filter>オブジェクト\Player</Filter>
     </ClInclude>
     <ClInclude Include="Camera.h">
-      <Filter>Camera</Filter>
+      <Filter>オブジェクト\Camera</Filter>
     </ClInclude>
-    <ClInclude Include="GameScene.h">
-      <Filter>GameScene</Filter>
+    <ClInclude Include="Game.h">
+      <Filter>シーン\Game</Filter>
     </ClInclude>
-    <ClInclude Include="ResultScene.h">
-      <Filter>ResultScene</Filter>
+    <ClInclude Include="Title.h">
+      <Filter>シーン\Title</Filter>
     </ClInclude>
-    <ClInclude Include="TitleScene.h">
-      <Filter>TitleScene</Filter>
+    <ClInclude Include="Result.h">
+      <Filter>シーン\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>オブジェクト\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>オブジェクト\Stage</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
