@@ -25,8 +25,8 @@ void Game::Update()
 
 void Game::Draw()
 {
-	player.Update();
+	player.Draw();
 	for (int i = 0; i < MAX_MOLE; i++) {
-		moles[i].Update();
+		moles[i].Draw();
 	}
 }
