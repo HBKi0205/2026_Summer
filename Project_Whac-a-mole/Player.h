@@ -1,5 +1,6 @@
 #pragma once
 #include "DxLib.h"
+#include "Constants.h"
 
 class Player {
 public:
@@ -11,6 +12,7 @@ public:
 
 private:
 	VECTOR position;
+
 	float inputX, inputY;
 
 };

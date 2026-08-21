@@ -1,7 +1,11 @@
 #pragma once
+#include "DxLib.h"
 
 class Camera {
 public:
-	void Update();
+	void Update(VECTOR playerPos);
+
+private:
+	VECTOR position;
 
 };

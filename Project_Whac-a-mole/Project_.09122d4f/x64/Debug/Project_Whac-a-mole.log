@@ -7,6 +7,9 @@
   Result.cpp
   Stage.cpp
   Title.cpp
+C:\Users\student\Desktop\2026_Summer\Project_Whac-a-mole\Player.cpp(30,72): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\2026_Summer\Project_Whac-a-mole\Player.cpp(30,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\2026_Summer\Project_Whac-a-mole\Player.cpp(30,38): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\student\Desktop\2026_Summer\Project_Whac-a-mole\Player.cpp(30,21): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   コードを生成中...
-LIBCMTD.lib(exe_winmain.obj) : error LNK2019: 未解決の外部シンボル WinMain が関数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) で参照されました
-C:\Users\student\Desktop\2026_Summer\Project_Whac-a-mole\x64\Debug\Project_Whac-a-mole.exe : fatal error LNK1120: 1 件の未解決の外部参照
+  Project_Whac-a-mole.vcxproj -> C:\Users\student\Desktop\2026_Summer\Project_Whac-a-mole\x64\Debug\Project_Whac-a-mole.exe
